@@ -1,0 +1,53 @@
+body
+{
+    background-color: black;
+}
+p
+
+{
+    color: tomato;
+    font-size: larger;
+}
+h1
+{
+    color: white;
+    
+}
+h1::after
+{
+    content: "";
+    animation-name: myname;
+    animation-duration: 5s;
+    animation-iteration-count:infinite ;
+}
+@keyframes myname
+{
+    0%{content:"|"}
+    3.57%{content:"M|"}
+    7.14%{content:"Ma|"}
+    10.71%{content:"Mah|"}
+    14.28%{content:"Mahm|"}
+    17.85%{content:"Mahmo|"}
+    21.42%{content:"Mahmou|"}
+    24.99%{content:"Mahmoud |"}
+    28.56%{content:"Mahmoud W|"}
+    32.13%{content:"Mahmoud Wa|"}
+    35.7%{content:"Mahmoud Waz|"}
+    39.27%{content:"Mahmoud Wazi|"}
+    42.84%{content:"Mahmoud Wazir|"}
+    46.41%{content:"Mahmoud Waziry|"}
+    49.98%{content:"Mahmoud Wazir|"}
+    53.55%{content:"Mahmoud Wazi|"}
+    57.12%{content:"Mahmoud Waz|"}
+    60.69%{content:"Mahmoud Wa|"}
+    64.26%{content:"Mahmoud W|"}
+    67.83%{content:"Mahmoud |"}
+    71.4%{content:"Mahmou|"}
+    74.97%{content:"Mahmo|"}
+    78.54%{content:"Mahm|"}
+    82.11%{content:"Mah|"}
+    85.68%{content:"Ma|"}
+    89.25%{content:"M|"}
+    100%{content:"|"}
+
+}
