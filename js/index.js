@@ -1,4 +1,4 @@
-function name(e) {
-    
-    
+function hello() {
+    console.log('hello waleed ');
 }
+hello()
